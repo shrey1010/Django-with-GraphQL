@@ -1,0 +1,11 @@
+type User {
+    id:Int!
+    name:String!
+    followers:[User!]
+}
+
+! means not nullable 
+scalar types in graphql : Int,FLoat,String,Boolean,ID
+followers : [User] means list of users 
+[User!]  means  user object cant be null value 
+[User!]!   this menas user can be a null object as well as the list also contain atleast a value.
