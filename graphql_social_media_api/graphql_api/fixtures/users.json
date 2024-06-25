@@ -14,5 +14,21 @@
             "name":"palak",
             "followers":[1]
         }
+    },
+        {
+        "model":"graphql_api.post",
+        "pk":1,
+        "fields":{
+            "content":"shrey",
+            "created_by":1
+        }
+    },
+    {
+        "model":"graphql_api.post",
+        "pk":2,
+        "fields":{
+            "content":"palak",
+            "created_by":2
+        }
     }
 ]
